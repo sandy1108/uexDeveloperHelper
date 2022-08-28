@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.zywx.wbpalmstar.widgetone.uexDeveloperHelper"
+    android:versionCode="4050000"
+    android:versionName="4.5.0"
+    tools:overrideLibrary="org.zywx.wbpalmstar.widgetone.uex">
+
+    <application
+        android:label="AppCan开发助手"
+        tools:replace="android:label"
+        tools:ignore="GoogleAppIndexingWarning, LockedOrientationActivity">
+        <!--  引擎的LauncherActivity，调试工程中声明用于调试， 不要写入插件包  -->
+        <activity
+            android:name="org.zywx.wbpalmstar.engine.LoadingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/browser_loading_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

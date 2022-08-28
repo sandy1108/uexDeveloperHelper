@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        className="xyz.wsgh.appcan.plugin.EUExDeveloperHelper" uexName="uexDeveloperHelper" >
+        <method name = "open" />
+    </plugin>
+</uexplugins>

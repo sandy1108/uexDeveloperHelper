@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexDeveloperHelper" version="4.5.0" build="2022082901">
+        <info>0:2022AppCan开发助手插件，调试使用</info>
+    </plugin>
+</uexplugins>
